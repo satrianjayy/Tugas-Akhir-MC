@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tugasakhirmc">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppThemeTwo">
+        <activity android:name=".DetailDataActivity" android:label="Detail Data" android:parentActivityName=".DetailDataActivity" android:theme="@style/AppTheme"/>
+        <activity android:name=".UpdateDataActivity" android:label="Update Data" android:parentActivityName=".UpdateDataActivity" android:theme="@style/AppTheme"/>
+        <activity android:name=".InputDataActivity" android:label="Input Data" android:parentActivityName=".InputDataActivity" android:theme="@style/AppTheme"/>
+        <activity android:name=".DataMahasiswaActivity" android:label="Data Mahasiswa" android:parentActivityName=".DataMahasiswaActivity" android:theme="@style/AppTheme"/>
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:label="Dashboard" android:theme="@style/AppTheme"/>
+    </application>
+</manifest>

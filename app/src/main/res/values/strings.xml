@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tugas Akhir MC</string>
+    <string name="lihat_data">Lihat Data</string>
+    <string name="input_data">Input Data</string>
+    <string name="informasi">Informasi</string>
+    <string name="nomor">Nomor</string>
+    <string name="nama">Nama</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="date_hint">yyyy-mm-dd</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="gender_hint">L atau P</string>
+    <string name="alamat">Alamat</string>
+    <string name="simpan">Simpan</string>
+    <string name="nomor_detail">Nomor </string>
+    <string name="detail_value">TextView</string>
+    <string name="nama_detail">Nama </string>
+    <string name="tanggal_lahir_detail">Tanggal Lahir </string>
+    <string name="jenis_kelamin_detail">Jenis Kelamin </string>
+    <string name="alamat_detail">Alamat </string>
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name = "Tugas Akhir MC"
+include ':app'
